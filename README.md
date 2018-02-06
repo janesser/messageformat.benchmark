@@ -1,0 +1,26 @@
+| Benchmark                        |          (pattern) | Mode | Cnt |     Score |    Error | Units |
+|----------------------------------|--------------------|------|-----|----------:|---------:|-------|
+| MessageFormatBenchmark.testIcuMF |         NO_PATTERN | avgt |   6 |   228,797 |   42,496 | ns/op |
+| MessageFormatBenchmark.testIcuMF |     SIMPLE_PATTERN | avgt |   6 |  1117,600 |  441,921 | ns/op |
+| MessageFormatBenchmark.testIcuMF |    COMPLEX_PATTERN | avgt |   6 |  2949,618 |  725,065 | ns/op |
+| MessageFormatBenchmark.testIcuMF | FORMATTING_PATTERN | avgt |   6 |  6346,040 | 2370,373 | ns/op |
+| MessageFormatBenchmark.testJdkMF |         NO_PATTERN | avgt |   6 |   183,476 |   62,598 | ns/op |
+| MessageFormatBenchmark.testJdkMF |     SIMPLE_PATTERN | avgt |   6 |  1255,238 |  318,384 | ns/op |
+| MessageFormatBenchmark.testJdkMF |    COMPLEX_PATTERN | avgt |   6 |  3050,473 | 1641,713 | ns/op |
+| MessageFormatBenchmark.testJdkMF | FORMATTING_PATTERN | avgt |   6 |  4582,252 |  413,866 | ns/op |
+| MessageFormatBenchmark.testKirai |         NO_PATTERN | avgt |   6 |   115,593 |   58,059 | ns/op |
+| MessageFormatBenchmark.testKirai |     SIMPLE_PATTERN | avgt |   6 |  2855,776 | 1375,766 | ns/op |
+| MessageFormatBenchmark.testKirai |    COMPLEX_PATTERN | avgt |   6 |  8715,833 | 4246,889 | ns/op |
+| MessageFormatBenchmark.testKirai | FORMATTING_PATTERN | avgt |   6 |  6046,519 | 2076,359 | ns/op |
+| MessageFormatBenchmark.testLogMF |         NO_PATTERN | avgt |   6 |    87,146 |    7,940 | ns/op |
+| MessageFormatBenchmark.testLogMF |     SIMPLE_PATTERN | avgt |   6 |  1032,772 |  240,756 | ns/op |
+| MessageFormatBenchmark.testLogMF |    COMPLEX_PATTERN | avgt |   6 |  3102,442 | 1219,790 | ns/op |
+| MessageFormatBenchmark.testLogMF | FORMATTING_PATTERN | avgt |   6 |  3029,272 | 1267,733 | ns/op |
+| MessageFormatBenchmark.testSF    |         NO_PATTERN | avgt |   6 |   355,316 |  152,473 | ns/op |
+| MessageFormatBenchmark.testSF    |     SIMPLE_PATTERN | avgt |   6 |  1657,143 |  450,163 | ns/op |
+| MessageFormatBenchmark.testSF    |    COMPLEX_PATTERN | avgt |   6 |  4333,916 | 1877,527 | ns/op |
+| MessageFormatBenchmark.testSF    | FORMATTING_PATTERN | avgt |   6 |  3312,646 | 1075,906 | ns/op |
+| MessageFormatBenchmark.testST    |         NO_PATTERN | avgt |   6 |  2414,549 |  781,988 | ns/op |
+| MessageFormatBenchmark.testST    |     SIMPLE_PATTERN | avgt |   6 |  8416,093 | 3428,229 | ns/op |
+| MessageFormatBenchmark.testST    |    COMPLEX_PATTERN | avgt |   6 | 19365,455 | 2771,118 | ns/op |
+| MessageFormatBenchmark.testST    | FORMATTING_PATTERN | avgt |   6 | 13894,472 | 3097,573 | ns/op |
